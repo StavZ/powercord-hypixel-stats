@@ -1,0 +1,8 @@
+{
+    "name": "Hypixel Statistic Plugin",
+    "description": "Add some commands which shows hypixel player/guild statistic",
+    "author": "StavZ#6469",
+    "version": "0.1.0",
+    "permissions": "ext_api",
+    "license": "MIT"
+}

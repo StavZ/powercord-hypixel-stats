@@ -1,0 +1,16 @@
+{
+  "name": "powercord-hypixel-stats",
+  "version": "1.0.0",
+  "description": "Powercord plugin",
+  "main": "index.js",
+  "keywords": [],
+  "author": "StavZ#6469",
+  "license": "MIT",
+  "dependencies": {
+    "moment": "^2.26.0",
+    "moment-duration-format": "^2.3.2"
+  },
+  "scripts": {
+    "test": "eslint --fix ./"
+  }
+}
