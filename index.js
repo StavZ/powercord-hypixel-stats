@@ -43,7 +43,7 @@ module.exports = class HypixelStats extends Plugin {
       return {
         error: true,
         send: false,
-        result: 'No API Key specified!'
+        result: Messages.HYPIXEL_NO_API_KEY
       };
     }
     const validApiKey = await this.validApiKey(key);
@@ -51,7 +51,7 @@ module.exports = class HypixelStats extends Plugin {
       return {
         error: true,
         send: false,
-        result: 'Invalid API Key!'
+        result: Messages.HYPIXEL_INVALID_API_KEY
       };
     }
     // eslint-disable-next-line arrow-body-style
@@ -120,7 +120,7 @@ module.exports = class HypixelStats extends Plugin {
     if (!args[0]) {
       return {
         send: false,
-        result: 'No player nickname specified.'
+        result: Messages.HYPIXEL_NO_PLAYER
       };
     }
     let query = args[0];
@@ -129,7 +129,7 @@ module.exports = class HypixelStats extends Plugin {
       if (!uuid) {
         return {
           send: false,
-          result: 'Player does not exist.'
+          result: Messages.HYPIXEL_PLAYER_DOES_NOT_EXIST.replace(/nickname/g, args[0])
         };
       }
       query = uuid;
@@ -144,7 +144,7 @@ module.exports = class HypixelStats extends Plugin {
     if (!res.player) {
       return {
         send: false,
-        result: 'Player does not exist.'
+        result: Messages.HYPIXEL_PLAYER_DOES_NOT_EXIST.replace(/nickname/g, args[0])
       };
     }
     const player = new Player(res.player);
@@ -217,7 +217,7 @@ module.exports = class HypixelStats extends Plugin {
     if (!args[0]) {
       return {
         send: false,
-        result: 'No guild name specified.'
+        result: Messages.HYPIXEL_NO_GUILD
       };
     }
     const query = args.join(' ');
@@ -231,7 +231,7 @@ module.exports = class HypixelStats extends Plugin {
     if (!res.guild) {
       return {
         send: false,
-        result: `Guild (\`${query}\`) does not exist.`
+        result: Messages.HYPIXEL_GUILD_DOES_NOT_EXIST.replace(/guild/g, query)
       };
     }
     const guild = new Guild(res.guild);

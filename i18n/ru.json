@@ -9,7 +9,6 @@
     "HYPIXEL_PLAYER_ACHIEVEMENT_POINTS": "Очки достижений",
     "HYPIXEL_PLAYER_STATUS": "Игровой статус",
     "HYPIXEL_PLAYER_SOCIAL_MEDIA": "Соц. Сети",
-    "HYPIXEL_PLAYER_DOES_NOT_EXIST": "И",
     "HYPIXEL_COMMAND_PLAYER_DESCRIPTION": "Общая статистика игрока Hypixel",
     "HYPIXEL_COMMAND_GUILD_DESCRIPTION": "Общая статистика гильдии Hypixel",
     "HYPIXEL_GUILD_LEVEL": "Уровень",
@@ -22,5 +21,11 @@
     "HYPIXEL_GUILD_ACHIEVEMENTS_WINNERS": "Победители",
     "HYPIXEL_GUILD_ACHIEVEMENTS_EXPKINGS": "Короли опыта",
     "HYPIXEL_GUILD_ACHIEVEMENTS_ONLINE": "Онлайн",
-    "HYPIXEL_GUILD_PREFERRED_GAMES": "Предпочитаемые мини-игры"
+    "HYPIXEL_GUILD_PREFERRED_GAMES": "Предпочитаемые мини-игры",
+    "HYPIXEL_NO_API_KEY": "API Ключ не указан.",
+    "HYPIXEL_PLAYER_DOES_NOT_EXIST": "Игрока (`nickname`) не существует.",
+    "HYPIXEL_GUILD_DOES_NOT_EXIST": "Гильдия (`guild`) не существует.",
+    "HYPIXEL_INVALID_API_KEY": "Неправильный API Ключ.",
+    "HYPIXEL_NO_PLAYER": "Ник игрока не указан.",
+    "HYPIXEL_NO_GUILD": "Название гильдии не указано."
 }

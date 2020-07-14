@@ -1,6 +1,6 @@
 {
     "name": "Hypixel Statistic Plugin",
-    "description": "Add some commands which shows hypixel player/guild statistic",
+    "description": "Powercord plugin that allows you to get Hypixel statistics by in-chat commands",
     "author": "StavZ#6469",
     "version": "1.0.0",
     "permissions": "ext_api",
