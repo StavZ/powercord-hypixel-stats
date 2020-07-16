@@ -12,7 +12,7 @@
     "HYPIXEL_COMMAND_PLAYER_DESCRIPTION": "Общая статистика игрока Hypixel",
     "HYPIXEL_COMMAND_GUILD_DESCRIPTION": "Общая статистика гильдии Hypixel",
     "HYPIXEL_GUILD_LEVEL": "Уровень",
-    "HYPIXEL_GUILD_LEGACYRANK": "",
+    "HYPIXEL_GUILD_LEGACYRANK": "Ранг",
     "HYPIXEL_GUILD_CREATION_DATE": "Дата создания",
     "HYPIXEL_GUILD_MEMBERS": "Участники",
     "HYPIXEL_GUILD_RANKS": "Роли",
