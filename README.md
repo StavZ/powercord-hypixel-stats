@@ -12,6 +12,7 @@ Go to `User Settings`, find `Hypixel Statistic` and enter copied api key.
 
 ##### Commands:
 `player [player-nickname]` - Player's statistic
+
 `guild [guild-name]` - Guild's Statistic
 
 ## Russian
@@ -26,4 +27,5 @@ Go to `User Settings`, find `Hypixel Statistic` and enter copied api key.
 
 ##### Commands:
 `player [ник-игрока]` - Статистика игрока
+
 `guild [нзвание-гильдии]` - Статистика гильдии
