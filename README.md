@@ -11,9 +11,9 @@ Join Minecraft Server `mc.hypixel.net` and run `/api new` command and copy key i
 Go to `User Settings`, find `Hypixel Statistic` and enter copied api key.
 
 ##### Commands:
-`player [player-nickname]` - Player's statistic
+`hypixelplayer [player-nickname]` - Player's statistic
 
-`guild [guild-name]` - Guild's Statistic
+`hypixelguild [guild-name]` - Guild's Statistic
 
 ## Russian
 Этот плагин позволяет Вам получать статистику Hypixel с помощью команд в чате.
@@ -26,6 +26,6 @@ Go to `User Settings`, find `Hypixel Statistic` and enter copied api key.
 Зайдите в `настройки пользователя`, найдите `Hypixel Statistic` и вставьте скопированный ключ.
 
 ##### Команды:
-`player [ник-игрока]` - Статистика игрока
+`hypixelplayer [ник-игрока]` - Статистика игрока
 
-`guild [нзвание-гильдии]` - Статистика гильдии
+`hypixelguild [название-гильдии]` - Статистика гильдии
